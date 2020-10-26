@@ -13,7 +13,7 @@ import java.util.Map;
  * @Date 2020-10-26 12:01
  * @Description
  **/
-@Component
+//@Component
 public class MyAckReceiver implements ChannelAwareMessageListener {
     @Override
     public void onMessage(Message message, Channel channel) throws Exception {

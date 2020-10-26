@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  * @Date 2020-10-26 12:00
  * @Description
  **/
-@Configuration
+//@Configuration
 public class MessageListenerConfig {
     @Autowired
     private CachingConnectionFactory connectionFactory;
